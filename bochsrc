@@ -1,0 +1,4 @@
+cpu: model=i386, count=1
+memory: guest=128M, host=256M
+boot: disk
+ata0-master: type=disk, path="kernel.img", mode=flat
